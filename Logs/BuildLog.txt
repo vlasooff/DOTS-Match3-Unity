@@ -1,20 +1,36 @@
-[  16/1041  0s] CopyTool ../../Builds/Wasm/Data/0abe26c8a549a8e5d2ecd734254b995e
-[  55/1041  0s] CopyTool ../../Builds/Wasm/Data/46b433b264c69cbd39f04ad2e5d12be8
-[  86/1041  0s] CopyTool ../../Builds/Wasm/Data/ce7cc5826b0dfdf4bae54102697e0a51
-[ 190/1041  0s] CopyTool ../../Builds/Wasm/Data/e35b0bbd657642b20a3040fbc82af7ac
-[ 986/1041  1s] Csc artifacts/TinyRacing.dll/Wasm/TinyRacing.dll (+2 others)
-C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(19,24): warning CS0169: ���� "UpdateCameraFollow.DefaultCameraPosition" ������� �� �ᯮ������.
-
-C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(21,22): warning CS0169: ���� "UpdateCameraFollow.IsDefaultCameraPositionSet" ������� �� �ᯮ������.
-
-C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(20,28): warning CS0169: ���� "UpdateCameraFollow.DefaultCameraRot" ������� �� �ᯮ������.
-[ 987/1041  2s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
-[ 988/1041  4s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
+[  16/1041  0s] CopyTool ../../Builds/Wasm/Data/e35b0bbd657642b20a3040fbc82af7ac
+[  17/1041  0s] CopyTool ../../Builds/Wasm/Data/46b433b264c69cbd39f04ad2e5d12be8
+[  60/1041  0s] CopyTool ../../Builds/Wasm/Data/0abe26c8a549a8e5d2ecd734254b995e
+[  93/1041  0s] CopyTool ../../Builds/Wasm/Data/ce7cc5826b0dfdf4bae54102697e0a51
+[ 986/1041  4s] Csc artifacts/TinyRacing.dll/Wasm/TinyRacing.dll (+2 others)
+[BUSY       6s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
+[ 987/1041 11s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
+[BUSY       6s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
+[ 988/1041  9s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
 [BUSY       6s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
-[ 989/1041  9s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
+[ 989/1041 13s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
 [BUSY       6s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
 [BUSY      16s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
-[ 990/1041 23s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[BUSY      26s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[ 990/1041 30s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
 Running il2cpp.exe in server GC mode.
+[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyTypes.o
+[1033/1041  6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyTypes.o
+[1034/1041  9s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyRacing.o
+[1035/1041  9s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyMethods.o
+[BUSY       6s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      16s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      26s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      36s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      46s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      56s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      66s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      76s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      86s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[1036/1041 87s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+warning: no output file specified, not emitting output
+[1037/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.wasm
+[1038/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.js
+[1039/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.html
 [           0s] Destroying Roslyn Shared Compiler Server
-*** Bee build success (43.03 seconds), 9 items updated
+*** Bee build success (168.79 seconds - 0:02:48), 16 items updated
