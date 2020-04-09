@@ -1,0 +1,62 @@
+[  16/1041  0s] CopyTool ../../Builds/Wasm/Data/0abe26c8a549a8e5d2ecd734254b995e
+[  18/1041  0s] CopyTool ../../Builds/Wasm/Data/46b433b264c69cbd39f04ad2e5d12be8
+[ 165/1041  0s] CopyTool ../../Builds/Wasm/Data/ce7cc5826b0dfdf4bae54102697e0a51
+[ 438/1041  0s] CopyTool ../../Builds/Wasm/Data/e35b0bbd657642b20a3040fbc82af7ac
+[ 986/1041  2s] Csc artifacts/TinyRacing.dll/Wasm/TinyRacing.dll (+2 others)
+C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(19,24): warning CS0169: ���� "UpdateCameraFollow.DefaultCameraPosition" ������� �� �ᯮ������.
+
+C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(20,28): warning CS0169: ���� "UpdateCameraFollow.DefaultCameraRot" ������� �� �ᯮ������.
+
+C:\Users\User\Desktop\Development\TinyRacing\Assets\Scripts\TinyRacing\Systems\UpdateCameraFollow.cs(21,22): warning CS0169: ���� "UpdateCameraFollow.IsDefaultCameraPositionSet" ������� �� �ᯮ������.
+[ 987/1041  2s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
+[ 988/1041  5s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
+[BUSY       6s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
+[ 989/1041 11s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
+[BUSY       6s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[BUSY      16s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[BUSY      26s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[ 990/1041 30s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+Running il2cpp.exe in server GC mode.
+[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[ 992/1041  8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyTypes.o
+[ 993/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StaticConstructors.o
+[ 995/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StringLiterals.o
+[ 996/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StaticInitialization.o
+[BUSY      23s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
+[BUSY      28s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[ 997/1041 11s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyMethods.o
+[BUSY      35s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[ 998/1041 39s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[ 999/1041 10s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Runtime.EntryPoint.o
+[1001/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Input.Web.o
+[1002/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Audio.Web.o
+[1007/1041  8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyRacing.o
+[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
+[BUSY      58s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[1010/1041 11s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Mathematics.o
+[1014/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.RendererExtras.o
+[1019/1041  4s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Animation.o
+[1020/1041 24s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
+[1028/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.UnityInstance.o
+[1029/1041  7s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/mscorlib.o
+[1033/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Platforms.RunLoop.o
+[BUSY      81s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[1034/1041 84s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[BUSY      89s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
+[BUSY      99s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
+[1035/1041 103s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
+[BUSY       6s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      16s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      26s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      36s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      46s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      56s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      66s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[BUSY      76s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[1036/1041 80s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+warning: no output file specified, not emitting output
+[1037/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.wasm
+[1038/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.js
+[1039/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.html
+[           0s] Destroying Roslyn Shared Compiler Server
+*** Bee build success (237.81 seconds - 0:03:57), 32 items updated
