@@ -453,10 +453,10 @@ function lengthBytesUTF8(str) {
 var GLOBAL_BASE = 1024,
     TOTAL_STACK = 5242880,
     STATIC_BASE = 1024,
-    STACK_BASE = 914352,
+    STACK_BASE = 914384,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 6157232
-    , DYNAMICTOP_PTR = 914144;
+    STACK_MAX = 6157264
+    , DYNAMICTOP_PTR = 914176;
     ;
 
 
@@ -479,7 +479,7 @@ var wasmTable = new WebAssembly.Table({
 
 var WASM_PAGE_SIZE = 65536;
 assert(STACK_BASE % 16 === 0, 'stack must start aligned to 16 bytes, STACK_BASE==' + STACK_BASE);
-assert((6157232) % 16 === 0, 'heap must start aligned to 16 bytes, DYNAMIC_BASE==' + 6157232);
+assert((6157264) % 16 === 0, 'heap must start aligned to 16 bytes, DYNAMIC_BASE==' + 6157264);
 assert(134217728 >= TOTAL_STACK, 'TOTAL_MEMORY should be larger than TOTAL_STACK, was ' + 134217728 + '! (TOTAL_STACK=' + TOTAL_STACK + ')');
 assert(134217728 % WASM_PAGE_SIZE === 0);
 assert(buffer.byteLength === 134217728);
@@ -498,7 +498,7 @@ var HEAPF64 = new Float64Array(buffer);
 
 
 
-  HEAP32[DYNAMICTOP_PTR>>2] = 6157232;
+  HEAP32[DYNAMICTOP_PTR>>2] = 6157264;
 
 
 
@@ -631,7 +631,7 @@ function _emscripten_asm_const_i(code) {
 
 
 
-// STATICTOP = STATIC_BASE + 913328;
+// STATICTOP = STATIC_BASE + 913360;
 
 
 
@@ -642,7 +642,7 @@ function _emscripten_asm_const_i(code) {
 
 
 /* no memory initializer */
-var tempDoublePtr = 914336;
+var tempDoublePtr = 914368;
 
 function copyTempFloat(ptr) { // functions, because inlining this code increases code size too much
   HEAP8[tempDoublePtr] = HEAP8[ptr];
@@ -4358,7 +4358,7 @@ function copyTempDouble(ptr) {
   }
   
   
-  var _fetch_work_queue=914320;function __emscripten_get_fetch_work_queue() {
+  var _fetch_work_queue=914352;function __emscripten_get_fetch_work_queue() {
       return _fetch_work_queue;
     }function _emscripten_start_fetch(fetch, successcb, errorcb, progresscb, readystatechangecb) {
     if (typeof noExitRuntime !== 'undefined') noExitRuntime = true; // If we are the main Emscripten runtime, we should not be closing down.
