@@ -453,17 +453,17 @@ function lengthBytesUTF8(str) {
 var GLOBAL_BASE = 1024,
     TOTAL_STACK = 5242880,
     STATIC_BASE = 1024,
-    STACK_BASE = 914384,
+    STACK_BASE = 905088,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 6157264
-    , DYNAMICTOP_PTR = 914176;
+    STACK_MAX = 6147968
+    , DYNAMICTOP_PTR = 904880;
     ;
 
 
-var wasmMaximumMemory = 134217728;
+var wasmMaximumMemory = 536870912;
 
 var wasmMemory = new WebAssembly.Memory({
-  'initial': 134217728 >> 16
+  'initial': 536870912 >> 16
   , 'maximum': wasmMaximumMemory >> 16
   });
 
@@ -479,10 +479,10 @@ var wasmTable = new WebAssembly.Table({
 
 var WASM_PAGE_SIZE = 65536;
 assert(STACK_BASE % 16 === 0, 'stack must start aligned to 16 bytes, STACK_BASE==' + STACK_BASE);
-assert((6157264) % 16 === 0, 'heap must start aligned to 16 bytes, DYNAMIC_BASE==' + 6157264);
-assert(134217728 >= TOTAL_STACK, 'TOTAL_MEMORY should be larger than TOTAL_STACK, was ' + 134217728 + '! (TOTAL_STACK=' + TOTAL_STACK + ')');
-assert(134217728 % WASM_PAGE_SIZE === 0);
-assert(buffer.byteLength === 134217728);
+assert((6147968) % 16 === 0, 'heap must start aligned to 16 bytes, DYNAMIC_BASE==' + 6147968);
+assert(536870912 >= TOTAL_STACK, 'TOTAL_MEMORY should be larger than TOTAL_STACK, was ' + 536870912 + '! (TOTAL_STACK=' + TOTAL_STACK + ')');
+assert(536870912 % WASM_PAGE_SIZE === 0);
+assert(buffer.byteLength === 536870912);
 
 // In non-ALLOW_MEMORY_GROWTH scenario, we only need to initialize
 // the heap once, so optimize code size to do it statically here.
@@ -498,7 +498,7 @@ var HEAPF64 = new Float64Array(buffer);
 
 
 
-  HEAP32[DYNAMICTOP_PTR>>2] = 6157264;
+  HEAP32[DYNAMICTOP_PTR>>2] = 6147968;
 
 
 
@@ -631,7 +631,7 @@ function _emscripten_asm_const_i(code) {
 
 
 
-// STATICTOP = STATIC_BASE + 913360;
+// STATICTOP = STATIC_BASE + 904064;
 
 
 
@@ -642,7 +642,7 @@ function _emscripten_asm_const_i(code) {
 
 
 /* no memory initializer */
-var tempDoublePtr = 914368;
+var tempDoublePtr = 905072;
 
 function copyTempFloat(ptr) { // functions, because inlining this code increases code size too much
   HEAP8[tempDoublePtr] = HEAP8[ptr];
@@ -4358,7 +4358,7 @@ function copyTempDouble(ptr) {
   }
   
   
-  var _fetch_work_queue=914352;function __emscripten_get_fetch_work_queue() {
+  var _fetch_work_queue=905056;function __emscripten_get_fetch_work_queue() {
       return _fetch_work_queue;
     }function _emscripten_start_fetch(fetch, successcb, errorcb, progresscb, readystatechangecb) {
     if (typeof noExitRuntime !== 'undefined') noExitRuntime = true; // If we are the main Emscripten runtime, we should not be closing down.

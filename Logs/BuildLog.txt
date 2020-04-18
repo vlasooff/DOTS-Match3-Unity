@@ -1,56 +1,75 @@
 [     0s] Build frontend of artifacts\buildprogram\buildprogram_buildprogram.dag ran (build file timestamp changed: ../PackageCache/com.unity.dots.runtime@0.23.0-preview/bee~/BuildProgramBuildProgramSources)
 [4/6  3s] Csc artifacts/buildprogram/buildprogram_buildprogram.exe (+2 others)
 [     0s] Destroying Roslyn Shared Compiler Server
-[     7s] Build frontend of artifacts\buildprogram\tundra_buildprogram.dag ran (build file timestamp changed: ../PackageCache/com.unity.dots.runtime@0.23.0-preview/bee~/BuildProgramBuildProgramSources)
-[ 6/13  0s] CSProject C:/Users/User/Desktop/Development/TinyRacing/Library/PackageCache/com.unity.dots.runtime@0.23.0-preview/bee~/BuildProgramBuildProgramSources/buildprogrambuildprogram.gen.csproj
+[     5s] Build frontend of artifacts\buildprogram\tundra_buildprogram.dag ran (build file timestamp changed: ../PackageCache/com.unity.dots.runtime@0.23.0-preview/bee~/BuildProgramBuildProgramSources)
 [BUSY   6s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
-[BUSY  16s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
-[11/13 25s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
+[11/13  6s] Csc artifacts/buildprogrambuildprogram.exe/Release/buildprogrambuildprogram.exe (+2 others)
 [       0s] Destroying Roslyn Shared Compiler Server
 Warning: BuildConfiguration 'Asmjs' specified 'UseBurst', but target (wasm) does not support burst yet. Not using burst.
 Warning: BuildConfiguration 'Wasm' specified 'UseBurst', but target (wasm) does not support burst yet. Not using burst.
-[       4s] Executed build program. Created build graph with 1069 nodes.
-[    42s] Build frontend of artifacts\tundra_Wasm_mkp.dag ran (build file timestamp changed: ../PackageCache/com.unity.dots.runtime@0.23.0-preview/bee~/BuildProgramBuildProgramSources)
-[  15/1041  0s] CopyTool ../../Builds/Wasm/Data/0abe26c8a549a8e5d2ecd734254b995e
-[  24/1041  0s] CopyTool ../../Builds/Wasm/Data/46b433b264c69cbd39f04ad2e5d12be8
-[  31/1041  0s] CopyTool ../../Builds/Wasm/Data/ce7cc5826b0dfdf4bae54102697e0a51
-[  32/1041  0s] CopyTool ../../Builds/Wasm/Data/e35b0bbd657642b20a3040fbc82af7ac
+[       5s] Executed build program. Created build graph with 1069 nodes.
+[    18s] Build frontend of artifacts\tundra_Wasm_mkp.dag ran (build file timestamp changed: settings/Wasm.json)
+[  15/1041  0s] WriteResponseFile artifacts/rsp/13711690703636705092.rsp
+[  16/1041  0s] CopyTool ../../Builds/Wasm/Data/e35b0bbd657642b20a3040fbc82af7ac
+[  17/1041  0s] CopyTool ../../Builds/Wasm/Data/46b433b264c69cbd39f04ad2e5d12be8
+[  62/1041  0s] CopyTool ../../Builds/Wasm/Data/0abe26c8a549a8e5d2ecd734254b995e
+[  97/1041  0s] CopyTool ../../Builds/Wasm/Data/ce7cc5826b0dfdf4bae54102697e0a51
 [ 986/1041  2s] Csc artifacts/TinyRacing.dll/Wasm/TinyRacing.dll (+2 others)
-[ 987/1041  2s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
+[ 987/1041  3s] ILPostProcessorRunner artifacts/TinyRacing/Wasm/post_ilprocessing/TinyRacing.dll (+pdb)
 [BUSY       6s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
-[ 988/1041  6s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
+[ 988/1041  9s] TypeRegGen artifacts/TinyRacing/Wasm/post_typereg/TinyRacing.dll (+67 others)
 [BUSY       6s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
-[ 989/1041 13s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
+[BUSY      16s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
+[ 989/1041 23s] UnityLinker artifacts/TinyRacing/Wasm_stripped/TinyRacing.dll (+67 others)
 [BUSY       6s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
 [BUSY      16s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
 [BUSY      26s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
-[ 990/1041 29s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
+[ 990/1041 27s] Il2Cpp artifacts/TinyRacing/Wasm_stripped/il2cpp-src/driver.cpp (+44 others)
 Running il2cpp.exe in server GC mode.
-[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StringLiterals.o
-[ 999/1041  7s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StringLiterals.o
-[1001/1041  4s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Input.Web.o
-[1002/1041 15s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyRacing.o
-[1007/1041  5s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Audio.Web.o
-[BUSY       8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
-[1014/1041  6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.RendererExtras.o
+[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyTypes.o
+[ 992/1041  7s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyTypes.o
+[ 993/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StaticConstructors.o
+[ 995/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StringLiterals.o
+[ 996/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/StaticInitialization.o
+[BUSY      21s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[ 997/1041 10s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyMethods.o
+[ 998/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Runtime.EntryPoint.o
+[BUSY      33s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[ 999/1041  6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/TinyRacing.o
+[1000/1041 40s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Il2CppGenericComDefinitions.o
+[1001/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Input.Web.o
+[1002/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Audio.Web.o
+[1003/1041  4s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Web.o
+[1005/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.ZeroJobs.o
+[BUSY      24s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Rendering.Native.o
+[1007/1041 27s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Rendering.Native.o
 [BUSY      14s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
-[1019/1041  8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Animation.o
+[BUSY      73s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[1010/1041 12s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Mathematics.o
+[1011/1041 24s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
+[1012/1041 83s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
+[1013/1041 11s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Transforms.o
+[1014/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Input.o
+[1015/1041  8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Collections.o
+[BUSY       6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Core.o
+[1016/1041  6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Core.o
+[1017/1041  7s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.RendererExtras.o
+[BUSY      11s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Rendering.o
+[1018/1041  6s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Audio.o
+[1019/1041 14s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Rendering.o
+[1020/1041  4s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Animation.o
+[1022/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Image2D.o
+[1023/1041  8s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/mscorlib.o
+[1024/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Image2D.Web.o
+[1025/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Mathematics.Extensions.o
 [1028/1041  4s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.UnityInstance.o
-[1029/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Platforms.RunLoop.o
-[BUSY      31s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
-[1033/1041 34s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.o
-[BUSY      54s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
-[BUSY      59s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[BUSY      65s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
-[BUSY      70s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[BUSY      76s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
-[BUSY      81s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[BUSY      87s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
-[1034/1041 88s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/GenericMethods.o
-[BUSY      93s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[BUSY     103s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[BUSY     113s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
-[1035/1041 117s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
+[1029/1041  5s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Scenes.o
+[1030/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Platforms.RunLoop.o
+[1031/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Entities.Runtime.o
+[1032/1041  2s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.Codec.o
+[1033/1041  3s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Tiny.IO.o
+[1034/1041 34s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Unity.Physics.o
+[1035/1041 130s] C_WebGL_wasm artifacts/TinyRacing/Wasm/php9/Generics.o
 [BUSY       6s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
 [BUSY      16s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
 [BUSY      26s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
@@ -59,15 +78,10 @@ Running il2cpp.exe in server GC mode.
 [BUSY      56s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
 [BUSY      66s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
 [BUSY      76s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[BUSY      86s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[BUSY      96s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[BUSY     106s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[BUSY     116s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[BUSY     126s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
-[1036/1041 134s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
+[1036/1041 81s] Link_WebGL_wasm artifacts/TinyRacing/Wasm/TinyRacing.html (+wasm,js)
 warning: no output file specified, not emitting output
 [1037/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.wasm
 [1038/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.js
 [1039/1041  0s] CopyTool ../../Builds/Wasm/TinyRacing.html
 [           0s] Destroying Roslyn Shared Compiler Server
-*** Bee build success (361.88 seconds - 0:06:01), 24 items updated
+*** Bee build success (300.87 seconds - 0:05:00), 50 items updated
